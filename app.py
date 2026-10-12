@@ -6,7 +6,7 @@ from pathlib import Path
 
 import streamlit as st
 
-st.set_page_config(page_title="FuckHelp", page_icon=":)", layout="wide")
+st.set_page_config(page_title="StudyHelp", page_icon=":)", layout="wide")
 
 DATA_FILE = Path("assignments.json")
 
@@ -38,7 +38,7 @@ if "remaining" not in st.session_state:
 if "timer_running" not in st.session_state:
     st.session_state.timer_running = False
 
-st.title(":) FuckHelp")
+st.title(":) StudyHelp")
 st.write("Stay organized, prioritize your work, and focus one sprint at a time.")
 
 # Dashboard
